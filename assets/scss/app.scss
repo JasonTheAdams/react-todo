@@ -1,0 +1,16 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+ul.todoList {
+  list-style-type: none;
+
+  .item-label input[type="checkbox"] {
+    margin-right: 20px;
+  }
+
+  li.todo-item {
+    &.completed .item-label {
+      text-decoration: line-through;
+      color: #AAA;
+    }
+  }
+}
